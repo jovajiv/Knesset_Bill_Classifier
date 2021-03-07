@@ -28,7 +28,7 @@ using those entries , i've trained a NaiveBayes ML classifier to identify those 
 
 
 ## Getting Started
- (1) download XML files from the Knesset Odata repository using MergeXML.py , which downloads by increments of 100 entries per xml file , then merges them to one big xml
+  (1) download XML files from the Knesset Odata repository using MergeXML.py , which downloads by increments of 100 entries per xml file , then merges them to one big xml
  
  (2) given the big XML , run the appropriate XMLtoCSV_{}.py   to convert the xml into CSV with the relevant data
     (a)  person(i.e knesset member)
@@ -57,8 +57,6 @@ using those entries , i've trained a NaiveBayes ML classifier to identify those 
     then, for each bill extracted by (3) , we run each of the 52 classifiers to receive classifications for each bill.
     final result  is displayed in 
     bill_with_categories.csv
-    
- 
 
 
 
