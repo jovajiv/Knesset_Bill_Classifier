@@ -34,6 +34,7 @@ using those entries , i've trained a NaiveBayes ML classifier to identify those 
     (b)  Bill_Initiator
     (c)  Israeli_laws
     (d)  Classification
+    
  (3) for Knesset_Bills :
     (a) run bill_download.py , which downloads the bill doc from odata service in .doc format
     (b) run from cmd "rename *.doc *.docx" to convert to docx format
