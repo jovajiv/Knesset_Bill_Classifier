@@ -42,8 +42,8 @@ using those entries , i've trained a NaiveBayes ML classifier to identify those 
     (c) run docx_to_txt.py to convert the docx files to txt files.
  
  (4) for israel_laws:
-    (a) run download_law, which:
-        (*) creates dictionary including only law_ids who have classification
+    a) run download_law, which:
+        *) creates dictionary including only law_ids who have classification
         (*) manipulate the dicitonary so each key (i.e law_id) has an array of classifications (52 possible classifications)
         (*) creates csv called attempt_to_manipuate_law with 52 possible classifications
         (*) attempt to download classified law context from open knesset wiki as those are not available in odata service.
