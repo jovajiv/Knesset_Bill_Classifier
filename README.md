@@ -29,6 +29,7 @@ using those entries , i've trained a NaiveBayes ML classifier to identify those 
 
 ## Getting Started
  (1) download XML files from the Knesset Odata repository using MergeXML.py , which downloads by increments of 100 entries per xml file , then merges them to one big xml
+ 
  (2) given the big XML , run the appropriate XMLtoCSV_{}.py   to convert the xml into CSV with the relevant data
     (a)  person(i.e knesset member)
     (b)  Bill_Initiator
@@ -39,6 +40,7 @@ using those entries , i've trained a NaiveBayes ML classifier to identify those 
     (a) run bill_download.py , which downloads the bill doc from odata service in .doc format
     (b) run from cmd "rename *.doc *.docx" to convert to docx format
     (c) run docx_to_txt.py to convert the docx files to txt files.
+ 
  (4) for israel_laws:
     (a) run download_law, which:
         (*) creates dictionary including only law_ids who have classification
@@ -47,7 +49,8 @@ using those entries , i've trained a NaiveBayes ML classifier to identify those 
         (*) attempt to download classified law context from open knesset wiki as those are not available in odata service.
         (*) create csv called file.csv with 52 possible classifications , only for laws who has classification and were sucessfully downloaded from the open knesset wiki
     (b) run parse_law.py which removes metadata info added by the open knesset website when downloading from there.
- (5) for laws downloaded in 
+ 
+ 5) for laws downloaded in 
     
  
 
