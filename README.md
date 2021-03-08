@@ -1,7 +1,8 @@
 # Knesset_Bill_Classifier
 
 
-Note : final result is in bill_with_categories.csv
+Note 1: final result is in bill_with_categories.csv
+note 2: more information can be found in presentation.pptx
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
