@@ -84,10 +84,15 @@ using those entries , i've trained a NaiveBayes ML classifier to identify those 
 ### run
 
  in order to run and classify the code, you dont need 70 % of these files.
+ 
  all that is requiered is the following :
- the file.csv , containing israel_law_id and their classification/
- the ML_classification.py , containing the code to create classifiers if needed, and run the classifcations on un-classified files/directories. 
+ 
+ the file.csv , containing israel_law_id and their classification.
+ 
+ the ML_classification.py , containing the code to create classifiers if needed, and run the classifcations on un-classified files/directories.
+ 
  the more_plot.py to produce statistics on the sucess\failure of the classifier
+ 
  and the classifiers directory ,containing all 52 binary classifiers, thus no need to train new classifiers ,only to run existing classifiers on un-classified files/directories
 
 
